@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+   <style>
+
+
+      div.container {
+         border: 1px solid red;
+         background-color:khaki;
+         height:2080px;
+      }
+      div.container2 {
+         height:2080px;
+      }
+
+      div.box{
+         border: 1px solid black;
+
+         width:40px;
+         height:40px;
+         display: inline-block;
+         margin: 3px 50px;
+         padding: 3px 50px;
+         text-align: left;
+      }
+
+      /* relative */
+
+      /* div.box#id3{
+         position: relative;
+         top: 20px;
+         bottom: 20px;
+         left:20px;
+         right:20px;
+      } */
+
+
+      /* absolute */
+      /* #id2{
+         position: absolute;
+         top: 0px;
+         bottom: 0px;
+         left:0px;
+         right:0px;
+      } */
+
+
+
+      /* For those who are searching for fixed and sticky difference:
+      Fixed and sticky are both similar, but 
+      If you make a  particular element inside a container as fixed, then irrespective of container height, as we scroll, the element stays at the same position till you scroll to end of web page.
+
+      If you make an element as sticky and if its inside a container, then as you scroll, the element will be in the same position until the container height. While scrolling, if the container is also scrolled down, then the sticky element in the container will also move top with container.
+
+      i.e., sticky will be fixed only till the end of the container, But fixed will be fixed until the end of web page. */
+
+      /* fixed */
+
+      #id4{
+         position:fixed;
+         top: 10px;
+         right:100px;
+
+      }
+ 
+
+
+
+
+
+   </style>
+
+   
+
+</head>
+<body>
+
+
+   <!-- Position in css
+
+      1. static (By default in current position) position
+
+      2. relative (from current position go top , left , right , bottom)
+
+      3. absolute (from parent element go left , top , right , bottom)
+
+      4. sticky (stick to some position only inside a any box)
+
+      5. fixed (stick to some position at any location of web page)
+   -->
+
+   <div class="container">
+      <div class="box" id="id1"> this is box 1</div>
+      <div class="box" id="id2"> this is box 2</div>
+      <div class="box" id="id3"> this is box 3</div>
+      <div class="box" id="id4"> this is box 4</div>
+   </div>
+
+
+   <div class="container2">
+
+      this is box 1
+
+   </div>
+   
+   
+
+   
+</body>
+</html>

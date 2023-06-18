@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+
+      /* border basic */
+      #para1 {
+         background-color: red;
+         height: 200px;
+         width: 200px;
+         background-color: aquamarine;
+         border-width: 3px;
+         border-style: solid;
+         border-color: bisque;
+         border-radius: 3px;
+         
+      }
+
+
+      /* border advance */
+      #para2 {
+         height: 200px;
+         width: 200px;
+         /* background-color:hotpink; */
+
+                  /*width style color */
+         border-left: 2px solid black;
+         border-right: 2px solid rgb(167, 37, 37);
+         border-top: 2px solid rgb(134, 62, 234);
+         border-bottom: 2px solid rgb(158, 153, 165);
+
+         /* adding image ti backgrond */
+         /* with no repeation */
+         background-image: "https://instagram.fbho3-1.fna.fbcdn.net/v/t51.2885-19/275069298_466642201825898_7625789892243601760_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbho3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=wsfJkfpXGH4AX8BjasV&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT8YWr6TIJTgf2KLJLI-b8ks2uCFhpR_TQZj3qnHsRWhTg&oe=62DD69F6&_nc_sid=8fd12b";
+         background-repeat: no-repeat;
+
+         
+         /* Individual Border of Paragraph */
+         border-top-left-radius: 12px;
+         border-bottom-left-radius: 12px;
+         border-top-right-radius: 12px;
+         border-bottom-right-radius: 12px;
+      }
+
+
+      
+      /* background image & position  */
+      #para3{
+
+         height: 200px;
+         width: 200px;
+
+         /* adding image to background */
+         background-image: url("https://www.filmibeat.com/img/136x100x170/popcorn/profile_photos/niharica-raizada-20200516090446-43344.jpg");
+
+         background-position: center center;
+
+         /* background-position: 20px 20px; */
+
+
+         /*  fixed meaning it will not scroll via side bar */
+         /* background-attachment: fixed; */
+
+         /* repeate in x dirction only */
+         /* background-repeat: repeat-y; */
+
+         /*  No repeat */
+         background-repeat: no-repeat;
+         
+
+         /* define border */
+         border: 1px solid black;
+         
+
+      }
+
+
+
+
+   </style>
+
+
+
+
+</head>
+
+<body>
+
+   <ol> 
+      <li>Height </li> 
+      <li>Width </li>
+      <li> Background </li>  
+      <li> Border </li>  
+      <li>Border-Radius </li>
+      <li> background image</li>
+   </ol>
+
+
+
+   <p id="para1"> This para 1</p>
+
+   <p id="para2"> This para 2</p>
+
+   <p id="para3"> This para 3</p>
+
+
+
+
+
+</body>
+
+</html>

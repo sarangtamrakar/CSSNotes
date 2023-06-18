@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+      /* Element selector */
+
+      p{
+         color: tomato;
+         background-color:cornflowerblue;
+      }
+
+
+
+      /* id selector */
+      #line1{
+         color:orange;
+         background-color:aquamarine;
+      }
+      #line2{
+         color:chartreuse;
+      }
+      #line3{
+         color:hotpink;
+      }
+
+
+      /* class selector */
+
+      .aquaBG{
+         color:black;
+         background-color:aquamarine;;
+      }
+      
+      .cls3{
+         color:chartreuse;
+      }
+
+
+
+
+
+
+      /* Grouping selector */
+      span#span1,footer#footer1{
+         color:rgb(188, 168, 130);
+      }
+      
+      span#span2,footer#footer2{
+         color:tomato;
+      }
+
+
+
+
+
+
+   </style>
+
+
+</head>
+<body>
+
+   <h3>Selectors in CSS</h3>
+
+   <!-- 
+      p{
+         color : blue
+      }
+
+      p==> selectors
+
+      color==> property
+
+      blue==> value
+    -->
+
+
+
+    <h2> Types of selector</h2>
+
+    <!--  Element selector -->
+    <p> This is paragraph 1 , here we will apply the Element selector css</p>
+    <p> This is paragraph 2 , here we will apply the Element selector css</p>
+    <p> This is paragraph 3 , here we will apply the Element selector css</p>
+
+
+
+    <!-- id selector -->
+    <div>
+      <ol type="A">
+         <li id="line1">this is line 1</li>
+         <li id="line2">this is line 2</li>
+         <li id="line3">this is line 3</li>
+      </ol>
+    </div>
+
+
+    <!-- class selector -->
+    <!-- we can use 1 class in multiple tags -->
+    <!-- we can use multiple class in 1 tag itself -->
+    <div>
+      <p class ="aquaBG">hello Bhai kaha ho</p>
+      <p class ="aquaBG">hello Bhai kaha ho</p>
+      <p class ="cls3">hello Bhai kaha ho</p>
+    </div>
+
+
+
+
+    <!-- Grouping selector -->
+    <!-- here we will group the multiple tag & apply the css on them -->
+    <span id="span1"> this is span1</span>
+    <span id="span2"> this is span2</span>
+    <footer id="footer1"> this is footer 1</footer>
+    <footer id="footer2"> this is footer 2</footer>
+
+
+
+
+
+
+
+   
+</body>
+</html>

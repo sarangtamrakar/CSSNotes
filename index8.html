@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Alignment</title>
+
+   <!-- Ubuntu font immport -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+   <style>
+      * {
+         background-color: aqua;
+      }
+
+      /* classes */
+      .container {
+         border: 3px solid rgb(93, 236, 146);
+         width: 1200px;
+         height: 1200px;
+         padding: 10px;
+         /* margin:200px 300px; */
+         margin: 10px auto;
+         font-family: font-family: 'Ubuntu', sans-serif;
+         ;
+      }
+
+      .item {
+         height: 200px;
+         width: 500px;
+         border: 3px solid red;
+         padding: 3px 10px;
+         margin: 10px 20px;
+         box-sizing: border-box;
+         font-family: 'sans-serif';
+
+      }
+
+      /* ids */
+      #stationary {
+         color: rgb(123, 33, 207);
+         float: left;
+         clear: both;
+
+      }
+
+      #grocery {
+         color: rgb(45, 227, 60);
+         float: right;
+         clear: both;
+      }
+
+      #medical {
+         color: rgb(55, 141, 202);
+         float: left;
+         clear: both;
+
+      }
+
+      #cosmetic {
+         color: rgb(47, 24, 24);
+         float: right;
+         clear: both;
+
+
+      }
+
+      #para {
+         margin: 10px 10px;
+         background-color: tomato;
+         font-family: 'Ubuntu', 'sans-serif';
+      }
+   </style>
+
+
+
+</head>
+
+<body>
+
+   <h2>Alignment , float, clear </h2>
+
+   <div class="container">
+
+      <div id="stationary" class="item">
+         <h3> Stationary </h3>
+
+         <p id="para"> this para Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum? Sed
+            inventore, dolor nisi mollitia rerum corporis nostrum sit, neque alias, numquam voluptatem ipsum autem
+            laboriosam doloremque nihil fuga voluptate.</p>
+      </div>
+
+      <div id="grocery" class="item">
+         <h3> grocery </h3>
+
+         <p id="para"> this para Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum? Sed
+            inventore, dolor nisi mollitia rerum corporis nostrum sit, neque alias, numquam voluptatem ipsum autem
+            laboriosam doloremque nihil fuga voluptate.</p>
+      </div>
+
+      <div id="medical" class="item">
+         <h3> medical </h3>
+
+         <p id="para"> this para Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum? Sed
+            inventore, dolor nisi mollitia rerum corporis nostrum sit, neque alias, numquam voluptatem ipsum autem
+            laboriosam doloremque nihil fuga voluptate.</p>
+      </div>
+
+      <div id="cosmetic" class="item">
+         <h3> cosmetic </h3>
+
+         <p id="para"> this para Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, nostrum? Sed
+            inventore, dolor nisi mollitia rerum corporis nostrum sit, neque alias, numquam voluptatem ipsum autem
+            laboriosam doloremque nihil fuga voluptate.</p>
+      </div>
+
+
+
+   </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+   <style>
+
+      /* apply to the just div p tags   , not all tag inside it */
+      div>p{
+         color:tomato;
+         background-color:blue;
+      }
+
+
+      /* when p ka pchhla sibiling div ho us para me laga do css */
+      div + p{
+         color: green;
+         background-color:blanchedalmond;
+      }
+
+
+      
+
+   </style>
+
+
+</head>
+<body>
+
+   <h2> More On Selectors</h2>
+
+   <div class="container" id="para1">
+
+      <ul>
+         <li id="box-1"> <p> para1</p> </li>
+         <li id="box-2"> <p> para2</p> </li>
+         <li id="box-3"> <p> para3</p> </li>
+         <li id="box-4"> <p> para4</p> </li>
+      </ul>
+
+      <div>
+         <p>  direct para</p>
+      </div>
+
+      <p> this direct para</p>
+
+   </div>
+   
+
+</body>
+</html>
